@@ -1,0 +1,56 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	background:#fff;
+	font-family:"微软雅黑";
+	color:#706f6f;
+	}
+p{
+	line-height:22px;
+	text-indent:1em;
+	font-size:12px;
+	}
+.content{
+	width:77%;
+	margin:0 auto;
+	padding:10px 2%;
+	}
+.top_con,.top_img,.top_img ul,.center,.center_img,.bottom_con{
+	width:100%;
+	float:left;
+	}
+.top_img ul{
+	padding:4px 0px;
+	list-style:none;
+	}
+.top_img ul li{
+	width:32%;
+	float:right;
+	margin-right:1%;
+	clear:left;
+	}
+.top_img ul li img,.center .right_img img,.center_img img{
+	max-width:100%;
+	}
+.center .center_con{
+	width:65%;
+	float:left;
+	}
+.center .right_img{
+	width:34%;
+	float:left;
+	margin-left:1%;
+	text-align:center;
+	}
+.center_img .img_left{
+	width:32%;
+	float:left;
+	}
+.center_img .img_right{
+	width:34%;
+	float:left;
+	margin-left:2%;
+	}
