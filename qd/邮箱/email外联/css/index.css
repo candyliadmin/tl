@@ -1,0 +1,42 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+body{
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#5a5a5a;
+	font-weight:bold;
+	}
+p{
+	line-height:36px;
+	text-align:left;
+	}
+.all{
+	width:100%;
+	background:url(../images/%E8%83%8C%E6%99%AF.png) no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	}
+.all .con{
+	width:60%;
+	max-width:1170px;
+	margin:0 auto;
+	margin-top:10%;
+	}
+.con_title{
+	font-size:16px;
+	color:#333;
+	padding-bottom:20px;
+	}
+.email{
+	color:#FE4561;
+	text-decoration:underline;
+	}
+.interval{
+	display:block;
+	height:34px;
+	}
