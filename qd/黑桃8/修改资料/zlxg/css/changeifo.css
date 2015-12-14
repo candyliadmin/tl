@@ -1,0 +1,102 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+.main{
+	margin:30px auto;
+	width:60%;
+	max-width:1140px;
+	min-width:500px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#333;
+	background:#fff;
+	}
+.main .concol{
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #ccc;
+	margin:30px 0px;
+	}
+.main .concol .rightsel{
+	width:25%;
+	height:100%;
+	float:right;
+	border:#ccc 1px solid;
+	border-bottom:none;
+	}
+.rightsel .consel{
+	display:block;
+	width:80%;
+	height:20px;
+	text-align:center;
+	padding:10px 0px;
+	float:left;
+	}
+.arrowdiv{
+	width: 20%;
+	height: 38px;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-color:#fff;
+	border-bottom:none;
+	margin-left:-2px;
+	float:left;
+	cursor:pointer;
+	}
+.arrow-down {
+	width: 0px;
+	height: 0px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #333;
+	font-size: 0px;
+	line-height: 0px;
+	margin:0 auto;
+	}
+.contitle{
+	float:left;
+	text-align:left;
+	height:20px;
+	padding:10px 0px;
+	}
+.coninput{
+	font-size:16px;
+	width:60%;
+	height:40px;
+	background-color: transparent;
+	border:none;
+	float:left;
+	text-indent:1em;
+	outline:medium;
+	}
+
+.main .concol .sel{
+	right:20%;;
+	left:65%;;
+	margin-top:45px;
+	border:1px solid #ccc;
+	background:#fff;
+	box-shadow:0px 0px 10px #999;
+	font-size:16px;
+	list-style:none;
+	position:absolute;
+	overflow:hidden;
+	display:none;
+	}
+.main .concol .sel li{
+	width:100%;
+	line-height:28px;
+	text-align:left;
+	padding-left:25%;
+	}
+.radio-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  vertical-align: middle;
+  cursor: pointer;

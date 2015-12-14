@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>资料修改</title>
+<link href="css/changeifo.css" type="text/css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/Selector.js"></script>
+</head>
+
+<body>
+<div class="main">
+<form method="post">
+    <div class="concol">
+        <label class="contitle">真实姓名：</label>
+        <input class="coninput" value="周杰伦">
+        <div class="rightsel">
+            <span class="consel">
+            所有人可见
+            </span>
+            <button class="arrowdiv" type="button" >
+                <div class="arrow-down"></div>
+            </button>
+            <ul class="sel">
+                <li value="1">所有人可见</li>
+                <li value="2">仅黑桃吧可见</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="concol">
+        <label class="contitle">性别：</label>
+        <label class="radio-inline ">
+            <i class="icon icon-radio"></i>
+            <input type="radio" name="sex" id="mdf_male"  value="1">男
+        </label>
+        <label class="radio-inline ">
+            <i class="icon icon-radio"></i>
+            <input type="radio" name="sex" id="mdf_female" value="2">女
+        </label>
+        <label class="radio-inline active">
+            <i class="icon icon-radio"></i>
+            <input type="radio" name="sex" id="mdf_secret" value="0">保密
+        </label>
+        <div class="rightsel">
+            <span class="consel">
+            所有人可见
+            </span>
+            <button class="arrowdiv" type="button" >
+                <div class="arrow-down"></div>
+            </button>
+            <ul class="sel">
+                <li value="1">所有人可见</li>
+                <li value="2">仅黑桃吧可见</li>
+            </ul>
+        </div>
+    </div>
+</form>
+</div>
+</body>
+</html>
